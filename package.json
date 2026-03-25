@@ -1,0 +1,32 @@
+{
+  "name": "tienes-14",
+  "displayName": "¿Tienes 14? Activa cam 😈",
+  "description": "nunca le digas a tu editor de códito que tienes 14 años 😭✌️ \nEscribe 14 en el editor para un popup",
+  "version": "0.0.1",
+  "publisher": "Doge42",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldog/tienes-14-VSC-Extension"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "keywords": ["14", "meme", "fun"],
+  "activationEvents": ["*"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
