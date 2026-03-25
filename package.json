@@ -1,7 +1,7 @@
 {
   "name": "tienes-14",
   "displayName": "¿Tienes 14? Activa cam 😈",
-  "description": "nunca le digas a tu editor de códito que tienes 14 años 😭✌️ \nEscribe 14 en el editor para un popup",
+  "description": "nunca le digas a tu editor de código que tienes 14 años 😭✌️",
   "version": "0.0.1",
   "publisher": "Doge42",
   "license": "MIT",
@@ -12,9 +12,17 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Other"],
-  "keywords": ["14", "meme", "fun"],
-  "activationEvents": ["onStartupFinished"],
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "14",
+    "meme",
+    "fun"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": []

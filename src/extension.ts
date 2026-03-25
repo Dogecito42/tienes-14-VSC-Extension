@@ -121,7 +121,7 @@ function getNonce(): string {
 
 function getWebviewContent(webview: vscode.Webview, imageUri: vscode.Uri): string {
   const nonce = getNonce();
-  const csp = webview.cspSource;
+  const csp = webview.cspSource; 
 
   return `<!DOCTYPE html>
 <html lang="es">
